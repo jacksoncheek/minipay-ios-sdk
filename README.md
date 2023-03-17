@@ -13,7 +13,7 @@ The MinipaySDK is available through [CocoaPods](https://cocoapods.org). To insta
 it, simply add the following line to your Podfile:
 
 ```
-pod 'MinipaySDK'
+pod 'MinipaySDK', '~> 1.0.0'
 ```
 
 ### SDK Initialization
