@@ -1,0 +1,6 @@
+framework module MinipaySDK {
+  umbrella header "MinipaySDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

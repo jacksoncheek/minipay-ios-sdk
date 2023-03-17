@@ -1,0 +1,6 @@
+framework module Pods_MinipaySDK_Tests {
+  umbrella header "Pods-MinipaySDK_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

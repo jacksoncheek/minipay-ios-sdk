@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'MinipaySDK_Example' do
+  pod 'MinipaySDK', :path => '../'
+  pod 'SnapKit', '~> 5.0.0'
+
+  target 'MinipaySDK_Tests' do
+    inherit! :search_paths
+
+  end
+end

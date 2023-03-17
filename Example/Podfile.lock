@@ -1,0 +1,24 @@
+PODS:
+  - MinipaySDK (1.0.0):
+    - SnapKit (~> 5.0.0)
+  - SnapKit (5.0.1)
+
+DEPENDENCIES:
+  - MinipaySDK (from `../`)
+  - SnapKit (~> 5.0.0)
+
+SPEC REPOS:
+  trunk:
+    - SnapKit
+
+EXTERNAL SOURCES:
+  MinipaySDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MinipaySDK: a33a72027fe538d098352078902bb84e9e63edb0
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+
+PODFILE CHECKSUM: 16d122f355e52dc0257131fb51903d46d79613d5
+
+COCOAPODS: 1.10.1
