@@ -1,5 +1,5 @@
 PODS:
-  - MinipaySDK (1.0.0):
+  - MinipaySDK (1.0.1):
     - SnapKit (~> 5.0.0)
   - SnapKit (5.0.1)
 
@@ -16,9 +16,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MinipaySDK: a33a72027fe538d098352078902bb84e9e63edb0
+  MinipaySDK: c68c69ed793e15a24f34304e2c4ceb90bf82ea1a
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
 
-PODFILE CHECKSUM: 16d122f355e52dc0257131fb51903d46d79613d5
+PODFILE CHECKSUM: d59668fb97d84b4ab86a1598758588503f7e8cfe
 
 COCOAPODS: 1.10.1

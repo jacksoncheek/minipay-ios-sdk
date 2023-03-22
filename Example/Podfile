@@ -3,6 +3,7 @@ use_frameworks!
 platform :ios, '10.0'
 
 target 'MinipaySDK_Example' do
+#  pod 'MinipaySDK', '~> 1.0.1'
   pod 'MinipaySDK', :path => '../'
   pod 'SnapKit', '~> 5.0.0'
 
