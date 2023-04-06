@@ -1,6 +1,6 @@
 {
   "name": "MinipaySDK",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "summary": "iOS SDK for Minipay",
   "description": "The MinipaySDK framework is a thin wrapper around the Minipay API. It is fully open source and compatible with apps supporting iOS versions 10 or above.",
   "homepage": "https://github.com/jacksoncheek/minipay-ios-sdk",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/jacksoncheek/minipay-ios-sdk.git",
-    "tag": "1.0.1"
+    "tag": "1.0.2"
   },
   "platforms": {
     "ios": "10.0"

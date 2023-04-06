@@ -7,107 +7,105 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05FFB1DF9A22594998C052E331EFF680 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68D1B94523097CAB40FE2A587B7A6A59 /* UIKit.framework */; };
-		092FDEA818F01D45F964961E66BD894B /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F460233F2A555D41511B6CCA66A124 /* ConstraintAttributes.swift */; };
-		094D16AB5147864FDDB0589B2E8512E7 /* MinipayService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD48A60820BDF2B174733CB8F001C88 /* MinipayService.swift */; };
-		09A51C30E8AEA4D06F61157B308F7A2C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500C30483C3E01647AB3E223318952FD /* LoginViewController.swift */; };
-		09F39C940ED5DEA390E650B776336576 /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E066869A95E00B949CBA4D2284C35F /* Typealiases.swift */; };
-		0D8941C83CAD9C1B222B9CB6D5DFD1F4 /* MinipaySDKResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D5905D5F27684FC71BC213A5A26714 /* MinipaySDKResult.swift */; };
-		1F8C28309106D3EFBC5C03CF6FEEC7E5 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4CB22007270CE7C51357D51EA1EA94 /* NetworkService.swift */; };
-		210C07C1686AE27E37C61537D919DD96 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43802F948A1303FAEB92BC51DA13B77B /* User.swift */; };
-		23729B2B99BAA3F8EB95784E147B392C /* AuthorizedAppAddRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82FDCCA1EDC9A1079E2DE3E684A5EE7 /* AuthorizedAppAddRequest.swift */; };
-		25F625930E912FC4C2094463A36B7C77 /* ConstraintDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE00ECC24C5CC6DC938204FF42AD0E5 /* ConstraintDSL.swift */; };
-		2ABA30180E64FC6D7F426594AB151DF2 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50380F281EC3EE769C85035CCEA77226 /* Constraint.swift */; };
-		32AACE9A365EBAF11E06AC3657989F54 /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724FB64349F5678CE1709979CF0DD952 /* ConstraintMakerRelatable.swift */; };
-		357C6F74323028278AB01A5E1E01407A /* ConstraintMakerExtendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43F10DE451FED17810D9B5C237324A5 /* ConstraintMakerExtendable.swift */; };
-		364912574019249B2DA6A79906A9A453 /* Pods-MinipaySDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 145767964B4E1BA5FAAB048FB14260CF /* Pods-MinipaySDK_Tests-dummy.m */; };
-		371050D2D11202F7F6B23C0B3CC35C80 /* ConstraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51E99894F75F00A281BE6A32FBDE495 /* ConstraintView.swift */; };
-		3B4F5740E719DCB64529C75A2B008D26 /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25479F58B67AA43E092C7B156C1B5C1B /* ConstraintRelation.swift */; };
-		3D59A603E64B4EA63C55FABAA2CF977F /* StyledButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E66D765909D0FBCA098CE3A495A43F /* StyledButton.swift */; };
-		3D9326EC818079AED8A4AD5CA4CE0E5D /* ConstraintPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BD95F32F2E57D6B9100B77B93F013C /* ConstraintPriority.swift */; };
-		40978A25A9440ACBE27774EB98783A81 /* LayoutConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464C01543F3BCEDEE51ABAA696513D0B /* LayoutConstraintItem.swift */; };
-		42C7E6E1697B234B767662631BF1FF0C /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B731E62D6D266676027F5DB3CC19EF /* NetworkError.swift */; };
-		480966271318482B3E48CC183DE898F5 /* ConstraintOffsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B200BD964F52F6693D4168248B8645 /* ConstraintOffsetTarget.swift */; };
-		487DDABD64276E3C96901D3F8858FF76 /* Pods-MinipaySDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 53291F6A45679401EB1668FC3A94A262 /* Pods-MinipaySDK_Example-dummy.m */; };
-		49A83A111B590AFD35C5D108A119C050 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E769393FE2F7DCF3E342575F5DF05239 /* SnapKit.framework */; };
-		560B5E6533385B4B9353D57A12D38267 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32F16DF945CE73ECA0F797633B716F8E /* Foundation.framework */; };
-		5BA4D50667E45C34805ECE91827929A7 /* StyledTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9F3CA12935CD03BAA78FF3EDDEAD65 /* StyledTextField.swift */; };
-		5BC2DCC71166EB0C1D964C13CAFF5E68 /* AuthorizedAppAddResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0711F3838C9FD36F429C78FA5A2E000F /* AuthorizedAppAddResponse.swift */; };
-		5D872A7BF752ECAB4099C99F18CDC63B /* ConstraintLayoutGuideDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0BE9F3D55FDB29EF516F6D6B1B6BCA /* ConstraintLayoutGuideDSL.swift */; };
-		5FFFF049CC48E7EAA5092059C7220BC0 /* SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0116B84A6773B75FCBFCB479E740F0F3 /* SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		64047912CA3BC29765FA1229BE1CB8C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32F16DF945CE73ECA0F797633B716F8E /* Foundation.framework */; };
-		6BB19B594CDD0230BFC8472DC7969CE2 /* MinipayServiceImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7616781DDC9FFF51E83C330BF971C58 /* MinipayServiceImpl.swift */; };
-		6C19C698AC464DEA3CCF1F30B5700DB6 /* AuthorizedAppPostUsageEventRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A76A97D5EF491676BD6B70A10CF24B3 /* AuthorizedAppPostUsageEventRequest.swift */; };
-		704FD00218A18F9471A273EDADD83DCA /* ConstraintRelatableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2975CA5A0D26BC84F3EE9912FEBDA795 /* ConstraintRelatableTarget.swift */; };
-		7073286EB7989EC32A93C660CAB4CFDB /* ConstraintPriorityTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9716AD15FADF38A93170E034F2BCE457 /* ConstraintPriorityTarget.swift */; };
-		721EB11773574610C04FA510143F5FD3 /* MinipaySDKImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187AE4AC041B09D5EDA2CBA5306A1C67 /* MinipaySDKImpl.swift */; };
-		72B91B1DF2C20F3589538E695947D24D /* ConstraintMakerPriortizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A53CAF547D71AEFABE49D91B4E6816 /* ConstraintMakerPriortizable.swift */; };
-		77247E9A46C2BA66B63CA1CBFF67809A /* ConstraintViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56006AA49A060CA2830F32CD6F394823 /* ConstraintViewDSL.swift */; };
-		8731757D0E8A3BBDF88257C633DE0D6B /* ConstraintLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C5188AE61F0E667CD9E7ED28CDD61C /* ConstraintLayoutGuide.swift */; };
-		8768EEA899ADE8BE9BE017012DFBFEE8 /* ConstraintLayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D705690D879064ED84970813189D8D4 /* ConstraintLayoutSupport.swift */; };
-		8CC7DD5FE82912AA5E9024B1CF93BA81 /* NetworkServiceImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109A7928584D0CDA04485BA42DBD14C2 /* NetworkServiceImpl.swift */; };
-		9735B0883F9960C9B3E5F9E7454664A5 /* ConstraintDirectionalInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91164BE769DA144776663FBF46785561 /* ConstraintDirectionalInsets.swift */; };
-		99165D9744B064C4CF9CEF492E1B1826 /* ConstraintConstantTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D990E0FED5B41C1F13AC6B08208A99B /* ConstraintConstantTarget.swift */; };
-		9B384F73F321CC0F6E4F2A518F88F64B /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1D9F6F4E2364DFAF158E04AF5D5EAA /* ConstraintDescription.swift */; };
-		A14E721FD8A69484B86A2714D9420118 /* ConstraintInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549471CD1FE3A1E1865DD172864918D3 /* ConstraintInsets.swift */; };
-		A49D95775A64C0B02A245DB55E35D5B6 /* MinipaySDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDA5FDBEC215A0BC9E11004EE0E3579 /* MinipaySDK.swift */; };
-		A60649E6C8204F06858B30B6BCD17DF1 /* Pods-MinipaySDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 421C28FC55318E4ABC7F18D9211457BB /* Pods-MinipaySDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A7C2258AAA3A53E12685E8ED51796A08 /* MinipaySDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 59D85881BC1BCCB6F2B4EC670BF13094 /* MinipaySDK-dummy.m */; };
-		B18CC7AF2EE8278B0A8D45ADD8AA9F54 /* SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E13B89FFD81AACB7530769CA05EEA26B /* SnapKit-dummy.m */; };
-		BCEB77EA5FFDD86D1D9CCCCBF8C5C793 /* MinipaySDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BE50BA9702D630B762D03EB6A320342C /* MinipaySDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C8539A5F3FEB3926BFF473C997587F53 /* ConstraintDirectionalInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D358AA1606C7B2CDC8555485807E9E /* ConstraintDirectionalInsetTarget.swift */; };
-		C85D743D4EAC94D266E8BE2A7AEA770A /* ConstraintMakerFinalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D02329E74D733C03BF6BAE1F564481 /* ConstraintMakerFinalizable.swift */; };
-		CB24D384BCA19157BEF25E2BB9E61388 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32F16DF945CE73ECA0F797633B716F8E /* Foundation.framework */; };
-		CC26B4F27DE65D15BAD5D961C39D27F2 /* ConstraintView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9055CEA7890517265589BD23D73A49 /* ConstraintView+Extensions.swift */; };
-		CCE1DC6280C82849BCEDC9EF0D4949C6 /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44C5B72775F6AF0891BF331F32FE10D /* LayoutConstraint.swift */; };
-		D17F4E5D8B51D3D93E44530CBD232A50 /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474AFC560A8B414B467174737DBC891A /* ConstraintItem.swift */; };
-		D5E9EFBC12B03CB9CCABB9C1AA1479EE /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063E02A49637E8A6427C522A96074DEC /* Graph.swift */; };
-		D763DC7419AE29D9ECA3F3F8685DC065 /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9341666EAC154422A032092A7DC2D7 /* UILayoutSupport+Extensions.swift */; };
-		DA35A4A427625C85C42BC3696828B3F5 /* ConstraintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250E41DBB680A3A2ECDDD2210311B230 /* ConstraintConfig.swift */; };
-		DC6C2767EB74200BA764EF8AAB9B2B24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32F16DF945CE73ECA0F797633B716F8E /* Foundation.framework */; };
-		E10C4FA2D800B2CE28CA23BC929549CE /* ConstraintMakerEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C3B0B200350EAC8F42EF635FF31BD1 /* ConstraintMakerEditable.swift */; };
-		E41EC0FEAE05B157862F9C75C6163415 /* ConstraintLayoutSupportDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A46A8054577838D49C60142EB88B13 /* ConstraintLayoutSupportDSL.swift */; };
-		E53C7D44AD5968AB542F428A0614A42A /* LoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018A6E92EF27532A3C8A8742CBEFA56E /* LoginRequest.swift */; };
-		E7A38370D0683EFDD25AD8B34AF1A2AC /* MinipaySDKStateRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FB92A504DF7582C1091F6F9FFCD917 /* MinipaySDKStateRepo.swift */; };
-		E9F124708ACE80A06123524980585155 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3880828737D784C97EB0214B7F0664 /* Person.swift */; };
-		EA9947CD0C82650189B77C257870360A /* AuthorizedAppPostUsageEventResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9142D738A3B5E896DE7B0A8A21E5D463 /* AuthorizedAppPostUsageEventResponse.swift */; };
-		EB1F3D5A6FB507626B7F56D4BE5D30C8 /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97FC0ADD46EDEBC1A4887320C4F1DAA8 /* Credentials.swift */; };
-		EDC6407C25FC68E6563DF75F3B135E93 /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = D038D2FAA2F6B073D1B64B8635F4E3E6 /* Debugging.swift */; };
-		EDE313B91F638D4DAED574267ED8B246 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F82D19A4D0B1F3833FCC0EDAC0770A /* Request.swift */; };
-		EF2B36A70DE75B002CA6EC1F18896531 /* ConstraintLayoutGuide+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BF299D2EEB87E7DD02630E87B96224 /* ConstraintLayoutGuide+Extensions.swift */; };
-		F0F775E7831B199316B010AD418F3393 /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141BC33167429B9926FB24A17F01568C /* ConstraintMaker.swift */; };
-		F4E6502C98BE356552095B3544D1046A /* ConstraintMultiplierTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AB9BB47A2175181386A432C07253AE /* ConstraintMultiplierTarget.swift */; };
-		F81F5A8E29DE808600ADE16A /* MinipaySDKEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81F5A8D29DE808600ADE16A /* MinipaySDKEnvironment.swift */; };
-		F9EFED340BB6ECADDC69B766244A4918 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E1AF6F63D66491097213D0A18EA8CB /* LoginResponse.swift */; };
-		FA2A7BB0430687444BBFFAEE2F7FD743 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAD6D65F62BF9265AC44ACF76ED8C8C /* LoginViewModel.swift */; };
-		FA7158C1274E87421842C866A078C6ED /* Pods-MinipaySDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ECDFE5784511E97DAE0A1118610F1FB /* Pods-MinipaySDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FCBD3D2D96BAF08ABC194F81CB6F765A /* ConstraintInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2EC377264B25FB0E67D150E37E87CD /* ConstraintInsetTarget.swift */; };
-		FE66327C3ECC84FCDA9BD5F27A9601B0 /* MinipaySDKBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3364DF28103DCF211E6D7CBBD72CD9E /* MinipaySDKBuilder.swift */; };
+		0069F56E98DCF7379EFA1F1BD8F42BB3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500C30483C3E01647AB3E223318952FD /* LoginViewController.swift */; };
+		04B6F9EDA3D440088AF8E3C9D119913B /* ConstraintLayoutGuide+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BF299D2EEB87E7DD02630E87B96224 /* ConstraintLayoutGuide+Extensions.swift */; };
+		0836446BF7972A896EEE542BB06B7D63 /* ConstraintOffsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B200BD964F52F6693D4168248B8645 /* ConstraintOffsetTarget.swift */; };
+		08AB5C6996D3B08BB760A988F057FAAC /* ConstraintPriorityTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9716AD15FADF38A93170E034F2BCE457 /* ConstraintPriorityTarget.swift */; };
+		0A9F768757CE40A3928CD94D289168AF /* MinipaySDKImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187AE4AC041B09D5EDA2CBA5306A1C67 /* MinipaySDKImpl.swift */; };
+		0C3B6445AC27D30AEF565737C63111EE /* MinipayServiceImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7616781DDC9FFF51E83C330BF971C58 /* MinipayServiceImpl.swift */; };
+		0D15E482BEF8BF08604A5EB34B3F4570 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B731E62D6D266676027F5DB3CC19EF /* NetworkError.swift */; };
+		0D44582A611D8B3BF6AAE98B9D2E959D /* ConstraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51E99894F75F00A281BE6A32FBDE495 /* ConstraintView.swift */; };
+		0FBF614DF2E513E7DE9A885F35D3213E /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4CB22007270CE7C51357D51EA1EA94 /* NetworkService.swift */; };
+		16409F02586AE59E32B6475292A2B6B2 /* Pods-MinipaySDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ECDFE5784511E97DAE0A1118610F1FB /* Pods-MinipaySDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1696F36BAA2F162076FD2F845F4EA71D /* AuthorizedAppAddResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0711F3838C9FD36F429C78FA5A2E000F /* AuthorizedAppAddResponse.swift */; };
+		179A0EA2A32DC7CB11BCBB3EE0EE7EB9 /* StyledTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9F3CA12935CD03BAA78FF3EDDEAD65 /* StyledTextField.swift */; };
+		1C7FF7C32FFF764FC6054C420DADB514 /* ConstraintLayoutSupportDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A46A8054577838D49C60142EB88B13 /* ConstraintLayoutSupportDSL.swift */; };
+		26A5ECAC818B89AF7713403D8F77D26A /* ConstraintViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56006AA49A060CA2830F32CD6F394823 /* ConstraintViewDSL.swift */; };
+		274DBB11B4DF8AF97B142F9A428B55C4 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAD6D65F62BF9265AC44ACF76ED8C8C /* LoginViewModel.swift */; };
+		2BE5F51EE9582B60F21FE8958AA77BBB /* MinipaySDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDA5FDBEC215A0BC9E11004EE0E3579 /* MinipaySDK.swift */; };
+		2D5B608E5F20AD14BF4D5E5999CC26E6 /* MinipaySDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BE50BA9702D630B762D03EB6A320342C /* MinipaySDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		323C87EDE06271CB4EC9E116110F33C4 /* Pods-MinipaySDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 53291F6A45679401EB1668FC3A94A262 /* Pods-MinipaySDK_Example-dummy.m */; };
+		330BCF794488363EE7A17C59FDD94544 /* ConstraintLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C5188AE61F0E667CD9E7ED28CDD61C /* ConstraintLayoutGuide.swift */; };
+		36E95BC2A867F656813CB6C30A9588EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		3802908B9D4E5BAAC09CDA7E7833874B /* AuthorizedAppPostUsageEventRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A76A97D5EF491676BD6B70A10CF24B3 /* AuthorizedAppPostUsageEventRequest.swift */; };
+		38ABD4B18C70F661C06CE45D32121B85 /* ConstraintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250E41DBB680A3A2ECDDD2210311B230 /* ConstraintConfig.swift */; };
+		3BD8663AEBD41E71D9B7CCB733D73DFD /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50380F281EC3EE769C85035CCEA77226 /* Constraint.swift */; };
+		3F64A297CEF1EC677A57E32F114B1A34 /* ConstraintDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE00ECC24C5CC6DC938204FF42AD0E5 /* ConstraintDSL.swift */; };
+		411F0FCA6189E216E3AFAEE3BC8E5314 /* MinipaySDKBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3364DF28103DCF211E6D7CBBD72CD9E /* MinipaySDKBuilder.swift */; };
+		4908A20F965BD0BC2B3BA751DE46D2F7 /* ConstraintPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BD95F32F2E57D6B9100B77B93F013C /* ConstraintPriority.swift */; };
+		4B42DC0177CD9624139538B96CF3828E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		4E24DDD8F8141A4E7C1317626E5C3FBC /* NetworkServiceImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109A7928584D0CDA04485BA42DBD14C2 /* NetworkServiceImpl.swift */; };
+		50842962FA806D0EAEDB4F34BA147591 /* ConstraintInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549471CD1FE3A1E1865DD172864918D3 /* ConstraintInsets.swift */; };
+		51FEEDC5AFECD1C11C11A43D739D02E9 /* ConstraintDirectionalInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D358AA1606C7B2CDC8555485807E9E /* ConstraintDirectionalInsetTarget.swift */; };
+		546FF2759F65C8717FC43503A6130133 /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724FB64349F5678CE1709979CF0DD952 /* ConstraintMakerRelatable.swift */; };
+		56E27002284C84BC01B8F54F4683B215 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F82D19A4D0B1F3833FCC0EDAC0770A /* Request.swift */; };
+		59D9034D6542BCAE61178A97A9ABC8A1 /* ConstraintRelatableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2975CA5A0D26BC84F3EE9912FEBDA795 /* ConstraintRelatableTarget.swift */; };
+		5BA1C0BC70E8BDA1469CB7532EDAF438 /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141BC33167429B9926FB24A17F01568C /* ConstraintMaker.swift */; };
+		5DE75CA1F9CE1E94E491A827BCE7A8EB /* Pods-MinipaySDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 145767964B4E1BA5FAAB048FB14260CF /* Pods-MinipaySDK_Tests-dummy.m */; };
+		5EDCF6A73189810C6434C9AF07FF9695 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E1AF6F63D66491097213D0A18EA8CB /* LoginResponse.swift */; };
+		61CE22C8BB42346C93A451C60654D047 /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25479F58B67AA43E092C7B156C1B5C1B /* ConstraintRelation.swift */; };
+		63DB652A6A31067BFE2777A2892245CB /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97FC0ADD46EDEBC1A4887320C4F1DAA8 /* Credentials.swift */; };
+		63FB659965127BBF37DAE64FD8EFED76 /* LoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018A6E92EF27532A3C8A8742CBEFA56E /* LoginRequest.swift */; };
+		6A0327F88A50E7B2E6206AFA3F2DBDE3 /* SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0116B84A6773B75FCBFCB479E740F0F3 /* SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AEDDAF26100C6480CC1A005F7574D58 /* ConstraintInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2EC377264B25FB0E67D150E37E87CD /* ConstraintInsetTarget.swift */; };
+		6B7ED67E6F3D8B6FDC438BB9D8116427 /* Pods-MinipaySDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 421C28FC55318E4ABC7F18D9211457BB /* Pods-MinipaySDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82BDC18812017C5746274796ABD7A4F6 /* MinipaySDKResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D5905D5F27684FC71BC213A5A26714 /* MinipaySDKResult.swift */; };
+		8666A873EDFEA7150B997B713F6CF93C /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1D9F6F4E2364DFAF158E04AF5D5EAA /* ConstraintDescription.swift */; };
+		875AC845741290AEDF0D9C82910DEA88 /* ConstraintMakerPriortizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A53CAF547D71AEFABE49D91B4E6816 /* ConstraintMakerPriortizable.swift */; };
+		8B4D0989D5FFCBEBEFBADB4004934409 /* AuthorizedAppAddRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82FDCCA1EDC9A1079E2DE3E684A5EE7 /* AuthorizedAppAddRequest.swift */; };
+		8E9334A8B0831D443B3C9AD8DBC0DCC1 /* ConstraintView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9055CEA7890517265589BD23D73A49 /* ConstraintView+Extensions.swift */; };
+		9189EFC63AE8B5806FF625C2D6064014 /* ConstraintMakerExtendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43F10DE451FED17810D9B5C237324A5 /* ConstraintMakerExtendable.swift */; };
+		964C4FC246B747CB25598563BB15A518 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3880828737D784C97EB0214B7F0664 /* Person.swift */; };
+		9BF867E5C116F06B37ECF7CA529E2255 /* ConstraintMakerEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C3B0B200350EAC8F42EF635FF31BD1 /* ConstraintMakerEditable.swift */; };
+		A723AF79EBA54EE3235E5DCB57B6D10E /* MinipayService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD48A60820BDF2B174733CB8F001C88 /* MinipayService.swift */; };
+		A9FF80D0854AF6F1EE69861F461BC624 /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E066869A95E00B949CBA4D2284C35F /* Typealiases.swift */; };
+		AD91E312931EFB86BF2C6FDAEEED2DEB /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474AFC560A8B414B467174737DBC891A /* ConstraintItem.swift */; };
+		B941F234B71A76BCF4501F2B7DACE905 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43802F948A1303FAEB92BC51DA13B77B /* User.swift */; };
+		C1A4675456F1EFCC63BF24EBB223D019 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063E02A49637E8A6427C522A96074DEC /* Graph.swift */; };
+		C52F9C760735539C9CA4BBDC84A28AD3 /* SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E13B89FFD81AACB7530769CA05EEA26B /* SnapKit-dummy.m */; };
+		C76CF86492A2003BC02A0A0A637F8459 /* MinipaySDKStateRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FB92A504DF7582C1091F6F9FFCD917 /* MinipaySDKStateRepo.swift */; };
+		CA07D3E2B9FF46FC783D5E1906D0DCC6 /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9341666EAC154422A032092A7DC2D7 /* UILayoutSupport+Extensions.swift */; };
+		D28EECE612FBD376A721311DB56BEFEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		D3F149141B775F59C90ABD261CD6A104 /* ConstraintConstantTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D990E0FED5B41C1F13AC6B08208A99B /* ConstraintConstantTarget.swift */; };
+		D996F0A50B484A1EDB6F4F75C6B5486B /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = D038D2FAA2F6B073D1B64B8635F4E3E6 /* Debugging.swift */; };
+		DB637AD214B3CBA13AF7C4A28947D2D5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
+		DD5AC77A5F102A301E6D4BF20A48C27A /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F460233F2A555D41511B6CCA66A124 /* ConstraintAttributes.swift */; };
+		DDF0125D81FA944374F65DC3AAA3C5D0 /* ConstraintDirectionalInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91164BE769DA144776663FBF46785561 /* ConstraintDirectionalInsets.swift */; };
+		DEC1129F69921AD49334351BEC0AC070 /* ConstraintMultiplierTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AB9BB47A2175181386A432C07253AE /* ConstraintMultiplierTarget.swift */; };
+		E63AD4A8F6FDDE8FBC50623107C116A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		E6461FC9660AA1C795B9895763AD1D8D /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44C5B72775F6AF0891BF331F32FE10D /* LayoutConstraint.swift */; };
+		E869DC2230F86FB2B6AC35D93552F324 /* LayoutConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464C01543F3BCEDEE51ABAA696513D0B /* LayoutConstraintItem.swift */; };
+		EA70141AD936A387FD43F4CF8B7DB395 /* MinipaySDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 59D85881BC1BCCB6F2B4EC670BF13094 /* MinipaySDK-dummy.m */; };
+		ED1F0A7C816990FE367A63C7445492C6 /* StyledButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E66D765909D0FBCA098CE3A495A43F /* StyledButton.swift */; };
+		EE0B6F351A10B433FC916CC928DE03AF /* ConstraintLayoutGuideDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0BE9F3D55FDB29EF516F6D6B1B6BCA /* ConstraintLayoutGuideDSL.swift */; };
+		F84B90E371F119E0DBBFDAA0DC7692B1 /* ConstraintMakerFinalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D02329E74D733C03BF6BAE1F564481 /* ConstraintMakerFinalizable.swift */; };
+		F8F516115F71B4591EB04900502C4A96 /* ConstraintLayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D705690D879064ED84970813189D8D4 /* ConstraintLayoutSupport.swift */; };
+		FBEFA597732298C6831ECD0CCF3984C5 /* AuthorizedAppPostUsageEventResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9142D738A3B5E896DE7B0A8A21E5D463 /* AuthorizedAppPostUsageEventResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		05C4F3B062E028962FE01FD0569CFCD6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 19622742EBA51E823D6DAE3F8CDBFAD4;
-			remoteInfo = SnapKit;
-		};
-		11F234E45820338BFA860E386536299F /* PBXContainerItemProxy */ = {
+		46ACAA313842C75A754E4B82E6601FDE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 58F02504416B8626A9E59B4D1BEBAAA6;
 			remoteInfo = "Pods-MinipaySDK_Example";
 		};
-		38D7D2212EB6602BADA109086D20D8F3 /* PBXContainerItemProxy */ = {
+		515D85F21F789CFF9D9C4AB02175994F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19622742EBA51E823D6DAE3F8CDBFAD4;
+			remoteInfo = SnapKit;
+		};
+		B49592DB61C0208003752E49926EB1F8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = F5803E9616780C96790400191D351937;
 			remoteInfo = MinipaySDK;
 		};
-		988D617FF69E3EB801059FDCC6ADC005 /* PBXContainerItemProxy */ = {
+		C5D6707C174E734A8F969A0539A994A4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -122,9 +120,9 @@
 		063E02A49637E8A6427C522A96074DEC /* Graph.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
 		0711F3838C9FD36F429C78FA5A2E000F /* AuthorizedAppAddResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AuthorizedAppAddResponse.swift; sourceTree = "<group>"; };
 		08D5905D5F27684FC71BC213A5A26714 /* MinipaySDKResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MinipaySDKResult.swift; path = MinipaySDK/Classes/MinipaySDKResult.swift; sourceTree = "<group>"; };
-		09B9AF61C4DE55E3F4C6BC446948DAD7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		09B9AF61C4DE55E3F4C6BC446948DAD7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		09BF299D2EEB87E7DD02630E87B96224 /* ConstraintLayoutGuide+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintLayoutGuide+Extensions.swift"; path = "Source/ConstraintLayoutGuide+Extensions.swift"; sourceTree = "<group>"; };
-		0B7E4C3417E4D8BA69D3FD7D29F33E4E /* MinipaySDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MinipaySDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0B7E4C3417E4D8BA69D3FD7D29F33E4E /* MinipaySDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MinipaySDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		0ECDFE5784511E97DAE0A1118610F1FB /* Pods-MinipaySDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MinipaySDK_Example-umbrella.h"; sourceTree = "<group>"; };
 		109A7928584D0CDA04485BA42DBD14C2 /* NetworkServiceImpl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NetworkServiceImpl.swift; sourceTree = "<group>"; };
 		11D02329E74D733C03BF6BAE1F564481 /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerFinalizable.swift; path = Source/ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
@@ -140,7 +138,6 @@
 		2975CA5A0D26BC84F3EE9912FEBDA795 /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelatableTarget.swift; path = Source/ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
 		2C3880828737D784C97EB0214B7F0664 /* Person.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		3184A67F9E0CCFFFC2CCD69C3CE2A379 /* Pods-MinipaySDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MinipaySDK_Example.release.xcconfig"; sourceTree = "<group>"; };
-		32F16DF945CE73ECA0F797633B716F8E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		391A6F8B42D2CD885F8F3C4CE6859439 /* SnapKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SnapKit-Info.plist"; sourceTree = "<group>"; };
 		3D705690D879064ED84970813189D8D4 /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupport.swift; path = Source/ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
 		3E36969F393BC16C0774B2B0762C5189 /* Pods-MinipaySDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MinipaySDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -157,12 +154,11 @@
 		549471CD1FE3A1E1865DD172864918D3 /* ConstraintInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsets.swift; path = Source/ConstraintInsets.swift; sourceTree = "<group>"; };
 		56006AA49A060CA2830F32CD6F394823 /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintViewDSL.swift; path = Source/ConstraintViewDSL.swift; sourceTree = "<group>"; };
 		56766CBC79307B4878436F88E8727A70 /* Pods-MinipaySDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MinipaySDK_Example-Info.plist"; sourceTree = "<group>"; };
-		580E26B5BE60B9904BE125D658F34DF1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		580E26B5BE60B9904BE125D658F34DF1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		59D85881BC1BCCB6F2B4EC670BF13094 /* MinipaySDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MinipaySDK-dummy.m"; sourceTree = "<group>"; };
 		5BA14CA706CE0115780C02B4025A88C5 /* Pods-MinipaySDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MinipaySDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		66C5188AE61F0E667CD9E7ED28CDD61C /* ConstraintLayoutGuide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuide.swift; path = Source/ConstraintLayoutGuide.swift; sourceTree = "<group>"; };
 		68B731E62D6D266676027F5DB3CC19EF /* NetworkError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
-		68D1B94523097CAB40FE2A587B7A6A59 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		68DC634EFBC0F91BECAED5881B736AF1 /* Pods-MinipaySDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MinipaySDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		6A9341666EAC154422A032092A7DC2D7 /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILayoutSupport+Extensions.swift"; path = "Source/UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
 		6D990E0FED5B41C1F13AC6B08208A99B /* ConstraintConstantTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConstantTarget.swift; path = Source/ConstraintConstantTarget.swift; sourceTree = "<group>"; };
@@ -177,10 +173,10 @@
 		91A53CAF547D71AEFABE49D91B4E6816 /* ConstraintMakerPriortizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerPriortizable.swift; path = Source/ConstraintMakerPriortizable.swift; sourceTree = "<group>"; };
 		93E1AF6F63D66491097213D0A18EA8CB /* LoginResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
 		9716AD15FADF38A93170E034F2BCE457 /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriorityTarget.swift; path = Source/ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
-		979486118B3E90C08386079D57962701 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		979486118B3E90C08386079D57962701 /* SnapKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SnapKit; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		97FC0ADD46EDEBC1A4887320C4F1DAA8 /* Credentials.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
 		9A76A97D5EF491676BD6B70A10CF24B3 /* AuthorizedAppPostUsageEventRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AuthorizedAppPostUsageEventRequest.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A1CD432F32277BB93DEAADA626ECEC5B /* SnapKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.release.xcconfig; sourceTree = "<group>"; };
 		A51E99894F75F00A281BE6A32FBDE495 /* ConstraintView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintView.swift; path = Source/ConstraintView.swift; sourceTree = "<group>"; };
 		A7D358AA1606C7B2CDC8555485807E9E /* ConstraintDirectionalInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDirectionalInsetTarget.swift; path = Source/ConstraintDirectionalInsetTarget.swift; sourceTree = "<group>"; };
@@ -189,7 +185,7 @@
 		AD7339B4DFF9F30EE1302A0F62973C8E /* Pods-MinipaySDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MinipaySDK_Tests-Info.plist"; sourceTree = "<group>"; };
 		AF499A474D3DB284EE2FF7F19B0A918A /* Pods-MinipaySDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MinipaySDK_Example-frameworks.sh"; sourceTree = "<group>"; };
 		AFDA5FDBEC215A0BC9E11004EE0E3579 /* MinipaySDK.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MinipaySDK.swift; path = MinipaySDK/Classes/MinipaySDK.swift; sourceTree = "<group>"; };
-		AFE98A672E60443432B88D94205749A2 /* MinipaySDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MinipaySDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFE98A672E60443432B88D94205749A2 /* MinipaySDK */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MinipaySDK; path = MinipaySDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1345EF66F43AB61F9BA3C48E643F105 /* Pods-MinipaySDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MinipaySDK_Tests.modulemap"; sourceTree = "<group>"; };
 		B4DB1D3CD0C5F79042BD54D376F59ADB /* MinipaySDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MinipaySDK.debug.xcconfig; sourceTree = "<group>"; };
 		B82FDCCA1EDC9A1079E2DE3E684A5EE7 /* AuthorizedAppAddRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AuthorizedAppAddRequest.swift; sourceTree = "<group>"; };
@@ -198,12 +194,13 @@
 		BE0BE9F3D55FDB29EF516F6D6B1B6BCA /* ConstraintLayoutGuideDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuideDSL.swift; path = Source/ConstraintLayoutGuideDSL.swift; sourceTree = "<group>"; };
 		BE50BA9702D630B762D03EB6A320342C /* MinipaySDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MinipaySDK-umbrella.h"; sourceTree = "<group>"; };
 		C4A46A8054577838D49C60142EB88B13 /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupportDSL.swift; path = Source/ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
-		C55661AA47339F2B3287D4A8066B9E27 /* Pods_MinipaySDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MinipaySDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C55661AA47339F2B3287D4A8066B9E27 /* Pods-MinipaySDK_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MinipaySDK_Tests"; path = Pods_MinipaySDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C71136B9548C106A48C3BB7FA933C945 /* Pods-MinipaySDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MinipaySDK_Example.modulemap"; sourceTree = "<group>"; };
-		C7E91763C550F0B54D67086A59E5CAC8 /* Pods_MinipaySDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MinipaySDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7E91763C550F0B54D67086A59E5CAC8 /* Pods-MinipaySDK_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MinipaySDK_Example"; path = Pods_MinipaySDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB1D9F6F4E2364DFAF158E04AF5D5EAA /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Source/ConstraintDescription.swift; sourceTree = "<group>"; };
 		CC290378FA1322700555CE4C57C32D0E /* MinipaySDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MinipaySDK-prefix.pch"; sourceTree = "<group>"; };
 		D038D2FAA2F6B073D1B64B8635F4E3E6 /* Debugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debugging.swift; path = Source/Debugging.swift; sourceTree = "<group>"; };
+		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		D4E066869A95E00B949CBA4D2284C35F /* Typealiases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Typealiases.swift; path = Source/Typealiases.swift; sourceTree = "<group>"; };
 		D4F82D19A4D0B1F3833FCC0EDAC0770A /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
 		DF9F3CA12935CD03BAA78FF3EDDEAD65 /* StyledTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StyledTextField.swift; sourceTree = "<group>"; };
@@ -211,7 +208,7 @@
 		E14A09DC3AD8CA84464FEC37F0FC99D1 /* SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-prefix.pch"; sourceTree = "<group>"; };
 		E2C3B0B200350EAC8F42EF635FF31BD1 /* ConstraintMakerEditable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerEditable.swift; path = Source/ConstraintMakerEditable.swift; sourceTree = "<group>"; };
 		E43F10DE451FED17810D9B5C237324A5 /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerExtendable.swift; path = Source/ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
-		E769393FE2F7DCF3E342575F5DF05239 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		EE9055CEA7890517265589BD23D73A49 /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintView+Extensions.swift"; path = "Source/ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
 		F0BD95F32F2E57D6B9100B77B93F013C /* ConstraintPriority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriority.swift; path = Source/ConstraintPriority.swift; sourceTree = "<group>"; };
 		F3364DF28103DCF211E6D7CBBD72CD9E /* MinipaySDKBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MinipaySDKBuilder.swift; path = MinipaySDK/Classes/MinipaySDKBuilder.swift; sourceTree = "<group>"; };
@@ -219,57 +216,52 @@
 		F75C9DAA3DCA31AF04E7D600999B8924 /* Pods-MinipaySDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MinipaySDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		F7616781DDC9FFF51E83C330BF971C58 /* MinipayServiceImpl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MinipayServiceImpl.swift; sourceTree = "<group>"; };
 		F7AB9BB47A2175181386A432C07253AE /* ConstraintMultiplierTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMultiplierTarget.swift; path = Source/ConstraintMultiplierTarget.swift; sourceTree = "<group>"; };
-		F81F5A8D29DE808600ADE16A /* MinipaySDKEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinipaySDKEnvironment.swift; sourceTree = "<group>"; };
 		FBAD6D65F62BF9265AC44ACF76ED8C8C /* LoginViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1D6D32D9708DC0E67F5292C07F1BEF25 /* Frameworks */ = {
+		0950533178059638B0B33315C8206441 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64047912CA3BC29765FA1229BE1CB8C6 /* Foundation.framework in Frameworks */,
+				E63AD4A8F6FDDE8FBC50623107C116A1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		20CE1187D9F0A9AC23D203E07206E815 /* Frameworks */ = {
+		511F547C7671B95D64E23DF76610082E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB24D384BCA19157BEF25E2BB9E61388 /* Foundation.framework in Frameworks */,
-				49A83A111B590AFD35C5D108A119C050 /* SnapKit.framework in Frameworks */,
-				05FFB1DF9A22594998C052E331EFF680 /* UIKit.framework in Frameworks */,
+				36E95BC2A867F656813CB6C30A9588EE /* Foundation.framework in Frameworks */,
+				DB637AD214B3CBA13AF7C4A28947D2D5 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		76762FFD0EAE6246AA8C4D92059FD431 /* Frameworks */ = {
+		5C87D455D666135C2E15A173E5D58A62 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC6C2767EB74200BA764EF8AAB9B2B24 /* Foundation.framework in Frameworks */,
+				D28EECE612FBD376A721311DB56BEFEA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EE23B1DE1DD1E0775C2DAB9564DE28BD /* Frameworks */ = {
+		F29AD0C08A18045DC8DB539366869157 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				560B5E6533385B4B9353D57A12D38267 /* Foundation.framework in Frameworks */,
+				4B42DC0177CD9624139538B96CF3828E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0918D6A4304BDA661C064AA1A5FEC86B /* Products */ = {
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AFE98A672E60443432B88D94205749A2 /* MinipaySDK.framework */,
-				C7E91763C550F0B54D67086A59E5CAC8 /* Pods_MinipaySDK_Example.framework */,
-				C55661AA47339F2B3287D4A8066B9E27 /* Pods_MinipaySDK_Tests.framework */,
-				979486118B3E90C08386079D57962701 /* SnapKit.framework */,
+				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
 			);
-			name = Products;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		1844AD2A5E428308C0BC22A934A7777D /* Targets Support Files */ = {
@@ -281,6 +273,17 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		438EAD0A3431B84ED6956D0DB2C1BA5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFE98A672E60443432B88D94205749A2 /* MinipaySDK */,
+				C7E91763C550F0B54D67086A59E5CAC8 /* Pods-MinipaySDK_Example */,
+				C55661AA47339F2B3287D4A8066B9E27 /* Pods-MinipaySDK_Tests */,
+				979486118B3E90C08386079D57962701 /* SnapKit */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		45BFA0B3D8766FC4591A8BACD9F229D9 /* Network */ = {
 			isa = PBXGroup;
 			children = (
@@ -288,6 +291,7 @@
 				BD4CB22007270CE7C51357D51EA1EA94 /* NetworkService.swift */,
 				109A7928584D0CDA04485BA42DBD14C2 /* NetworkServiceImpl.swift */,
 			);
+			name = Network;
 			path = Network;
 			sourceTree = "<group>";
 		};
@@ -306,6 +310,15 @@
 			);
 			name = Internal;
 			path = MinipaySDK/Classes/Internal;
+			sourceTree = "<group>";
+		};
+		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */,
+				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		5D6F96315E87A8C6C388936F95A70320 /* Pods-MinipaySDK_Example */ = {
@@ -332,6 +345,7 @@
 				9142D738A3B5E896DE7B0A8A21E5D463 /* AuthorizedAppPostUsageEventResponse.swift */,
 				93E1AF6F63D66491097213D0A18EA8CB /* LoginResponse.swift */,
 			);
+			name = Response;
 			path = Response;
 			sourceTree = "<group>";
 		};
@@ -344,7 +358,6 @@
 				578DBABDAF09215C6E8FF956CB2F52F4 /* Internal */,
 				E3C90B6F5DA9178B874B0E2D71CACE5D /* Pod */,
 				CA40DC66866F220C692CF3F6C7FD4DEE /* Support Files */,
-				F81F5A8D29DE808600ADE16A /* MinipaySDKEnvironment.swift */,
 			);
 			name = MinipaySDK;
 			path = ../..;
@@ -355,6 +368,7 @@
 			children = (
 				45FB92A504DF7582C1091F6F9FFCD917 /* MinipaySDKStateRepo.swift */,
 			);
+			name = State;
 			path = State;
 			sourceTree = "<group>";
 		};
@@ -380,6 +394,7 @@
 				11E66D765909D0FBCA098CE3A495A43F /* StyledButton.swift */,
 				DF9F3CA12935CD03BAA78FF3EDDEAD65 /* StyledTextField.swift */,
 			);
+			name = View;
 			path = View;
 			sourceTree = "<group>";
 		};
@@ -424,6 +439,7 @@
 				6A9341666EAC154422A032092A7DC2D7 /* UILayoutSupport+Extensions.swift */,
 				843EFF0C650682C304D518A9092EE9FD /* Support Files */,
 			);
+			name = SnapKit;
 			path = SnapKit;
 			sourceTree = "<group>";
 		};
@@ -450,16 +466,8 @@
 				018A6E92EF27532A3C8A8742CBEFA56E /* LoginRequest.swift */,
 				D4F82D19A4D0B1F3833FCC0EDAC0770A /* Request.swift */,
 			);
+			name = Request;
 			path = Request;
-			sourceTree = "<group>";
-		};
-		99DBB30AE89E388321E3A189A8A571D9 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				32F16DF945CE73ECA0F797633B716F8E /* Foundation.framework */,
-				68D1B94523097CAB40FE2A587B7A6A59 /* UIKit.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		9ADB0596333FEEFB74CDECDA43CD385F /* Model */ = {
@@ -471,16 +479,8 @@
 				9579DD1E505FB0BFFF0A69F249578B6B /* Request */,
 				5ED477D1FEAF0669A167A32D7DCCF4FE /* Response */,
 			);
+			name = Model;
 			path = Model;
-			sourceTree = "<group>";
-		};
-		A5295F30F49CEBECAE3FA01C1DA73F8C /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				E769393FE2F7DCF3E342575F5DF05239 /* SnapKit.framework */,
-				99DBB30AE89E388321E3A189A8A571D9 /* iOS */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		AF911A77584EAC04E4A3434103A933D2 /* Service */ = {
@@ -489,6 +489,7 @@
 				ACD48A60820BDF2B174733CB8F001C88 /* MinipayService.swift */,
 				F7616781DDC9FFF51E83C330BF971C58 /* MinipayServiceImpl.swift */,
 			);
+			name = Service;
 			path = Service;
 			sourceTree = "<group>";
 		};
@@ -520,9 +521,9 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				ED934F44E13B7428CFB8AB847A208681 /* Development Pods */,
-				A5295F30F49CEBECAE3FA01C1DA73F8C /* Frameworks */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
 				BA22F08D059965C9A09F78196176CEDB /* Pods */,
-				0918D6A4304BDA661C064AA1A5FEC86B /* Products */,
+				438EAD0A3431B84ED6956D0DB2C1BA5A /* Products */,
 				1844AD2A5E428308C0BC22A934A7777D /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -548,35 +549,35 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		26A0BAE7832FA6FE756954BD3F1FFFF2 /* Headers */ = {
+		392DBBD14F135ACD516A7442378CF4D1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A60649E6C8204F06858B30B6BCD17DF1 /* Pods-MinipaySDK_Tests-umbrella.h in Headers */,
+				2D5B608E5F20AD14BF4D5E5999CC26E6 /* MinipaySDK-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		45F229DF6379074BE2C65BB0E3F44657 /* Headers */ = {
+		76598E4711A44A7817F202DCA00F62EB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCEB77EA5FFDD86D1D9CCCCBF8C5C793 /* MinipaySDK-umbrella.h in Headers */,
+				16409F02586AE59E32B6475292A2B6B2 /* Pods-MinipaySDK_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		72C86C51446981EB61319EB4F87F6895 /* Headers */ = {
+		C1E98D97C91ED66B99DA0A8A5AA90987 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA7158C1274E87421842C866A078C6ED /* Pods-MinipaySDK_Example-umbrella.h in Headers */,
+				6A0327F88A50E7B2E6206AFA3F2DBDE3 /* SnapKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		95BBB2874638BB50646D411D50ADEF78 /* Headers */ = {
+		CBF68E1283C35089770099C79EBD9DDF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FFFF049CC48E7EAA5092059C7220BC0 /* SnapKit-umbrella.h in Headers */,
+				6B7ED67E6F3D8B6FDC438BB9D8116427 /* Pods-MinipaySDK_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -585,12 +586,12 @@
 /* Begin PBXNativeTarget section */
 		19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5787B3CAF035554C17B2B484B8C34080 /* Build configuration list for PBXNativeTarget "SnapKit" */;
+			buildConfigurationList = 154C45D174F0EF5EF27EB9011A88A489 /* Build configuration list for PBXNativeTarget "SnapKit" */;
 			buildPhases = (
-				95BBB2874638BB50646D411D50ADEF78 /* Headers */,
-				AF24664DAB21F97A9DDBF6EC0A3DE810 /* Sources */,
-				1D6D32D9708DC0E67F5292C07F1BEF25 /* Frameworks */,
-				9BE7200CB8AAAE90194F201AEBFF3B21 /* Resources */,
+				C1E98D97C91ED66B99DA0A8A5AA90987 /* Headers */,
+				A71EEC61CAC867B9C3A299D89662AAA3 /* Sources */,
+				F29AD0C08A18045DC8DB539366869157 /* Frameworks */,
+				0A69B223E95EB273A7B4EDDCB02D5DCC /* Resources */,
 			);
 			buildRules = (
 			);
@@ -598,65 +599,65 @@
 			);
 			name = SnapKit;
 			productName = SnapKit;
-			productReference = 979486118B3E90C08386079D57962701 /* SnapKit.framework */;
+			productReference = 979486118B3E90C08386079D57962701 /* SnapKit */;
 			productType = "com.apple.product-type.framework";
 		};
 		58F02504416B8626A9E59B4D1BEBAAA6 /* Pods-MinipaySDK_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3E38ADF6D9D91916B60FF65AEC7C69EB /* Build configuration list for PBXNativeTarget "Pods-MinipaySDK_Example" */;
+			buildConfigurationList = 3C4FC534056FA44E89BBF7BEB4D08704 /* Build configuration list for PBXNativeTarget "Pods-MinipaySDK_Example" */;
 			buildPhases = (
-				72C86C51446981EB61319EB4F87F6895 /* Headers */,
-				5B6F94525C8105C6D026B27107872D48 /* Sources */,
-				76762FFD0EAE6246AA8C4D92059FD431 /* Frameworks */,
-				0D3ECE98A523378EA2C122813049F61A /* Resources */,
+				76598E4711A44A7817F202DCA00F62EB /* Headers */,
+				04D57128C66AC61B83E7E90E0E1E6DBC /* Sources */,
+				0950533178059638B0B33315C8206441 /* Frameworks */,
+				BBF192D1F1360E3A6B26F3002BB238EC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C266DD538EE25BA36E97EFD21CBE0D2C /* PBXTargetDependency */,
-				C09BE071EF99920BD29B944A0C2EC1B9 /* PBXTargetDependency */,
+				0FE9B6DEDFE3868DE00F9AC8FED10AF4 /* PBXTargetDependency */,
+				78AD169DA4C8C1FE35CFF207B3420A3F /* PBXTargetDependency */,
 			);
 			name = "Pods-MinipaySDK_Example";
-			productName = "Pods-MinipaySDK_Example";
-			productReference = C7E91763C550F0B54D67086A59E5CAC8 /* Pods_MinipaySDK_Example.framework */;
+			productName = Pods_MinipaySDK_Example;
+			productReference = C7E91763C550F0B54D67086A59E5CAC8 /* Pods-MinipaySDK_Example */;
 			productType = "com.apple.product-type.framework";
 		};
 		B7A96318C81B68EAFF49A751F05456D2 /* Pods-MinipaySDK_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2A82F062F55C213EB5FC01D2C42499EA /* Build configuration list for PBXNativeTarget "Pods-MinipaySDK_Tests" */;
+			buildConfigurationList = 50A4A71BF690B1A8087494A5CD413D94 /* Build configuration list for PBXNativeTarget "Pods-MinipaySDK_Tests" */;
 			buildPhases = (
-				26A0BAE7832FA6FE756954BD3F1FFFF2 /* Headers */,
-				264FCD57C8840159644E3F984125A0FD /* Sources */,
-				EE23B1DE1DD1E0775C2DAB9564DE28BD /* Frameworks */,
-				01E008BFC16658A1E4F1409E8BE2A282 /* Resources */,
+				CBF68E1283C35089770099C79EBD9DDF /* Headers */,
+				ECDE1A10F62032E6BB0793ECD2F232FB /* Sources */,
+				5C87D455D666135C2E15A173E5D58A62 /* Frameworks */,
+				5B8732DFF1EC9D0EE2080182E97F5CF0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1552809AF64146A2E5EBA55086FB2293 /* PBXTargetDependency */,
+				C68D1D6670704F95EFB41A08397A5D67 /* PBXTargetDependency */,
 			);
 			name = "Pods-MinipaySDK_Tests";
-			productName = "Pods-MinipaySDK_Tests";
-			productReference = C55661AA47339F2B3287D4A8066B9E27 /* Pods_MinipaySDK_Tests.framework */;
+			productName = Pods_MinipaySDK_Tests;
+			productReference = C55661AA47339F2B3287D4A8066B9E27 /* Pods-MinipaySDK_Tests */;
 			productType = "com.apple.product-type.framework";
 		};
 		F5803E9616780C96790400191D351937 /* MinipaySDK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B343884E309CC62EE2A7081451EECCB5 /* Build configuration list for PBXNativeTarget "MinipaySDK" */;
+			buildConfigurationList = 86C5D1B15F513C2071099D8806078A32 /* Build configuration list for PBXNativeTarget "MinipaySDK" */;
 			buildPhases = (
-				45F229DF6379074BE2C65BB0E3F44657 /* Headers */,
-				89D855EB9B85C0DABC694FAEF0BC52A3 /* Sources */,
-				20CE1187D9F0A9AC23D203E07206E815 /* Frameworks */,
-				C2113C96DD052B15F88E7EC3A3D95255 /* Resources */,
+				392DBBD14F135ACD516A7442378CF4D1 /* Headers */,
+				1D2CEA78B5AF0C8A8E5B92860BF0AA2B /* Sources */,
+				511F547C7671B95D64E23DF76610082E /* Frameworks */,
+				ED4A7F1015C0C6370D486B0021EBB8B4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9A8947F15BDAEE79AFD0C426906807AA /* PBXTargetDependency */,
+				B782BB310BC3F222178C4ED12384E0DE /* PBXTargetDependency */,
 			);
 			name = MinipaySDK;
 			productName = MinipaySDK;
-			productReference = AFE98A672E60443432B88D94205749A2 /* MinipaySDK.framework */;
+			productReference = AFE98A672E60443432B88D94205749A2 /* MinipaySDK */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -665,19 +666,19 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 0918D6A4304BDA661C064AA1A5FEC86B /* Products */;
+			productRefGroup = 438EAD0A3431B84ED6956D0DB2C1BA5A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -690,28 +691,28 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		01E008BFC16658A1E4F1409E8BE2A282 /* Resources */ = {
+		0A69B223E95EB273A7B4EDDCB02D5DCC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0D3ECE98A523378EA2C122813049F61A /* Resources */ = {
+		5B8732DFF1EC9D0EE2080182E97F5CF0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9BE7200CB8AAAE90194F201AEBFF3B21 /* Resources */ = {
+		BBF192D1F1360E3A6B26F3002BB238EC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C2113C96DD052B15F88E7EC3A3D95255 /* Resources */ = {
+		ED4A7F1015C0C6370D486B0021EBB8B4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -721,232 +722,132 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		264FCD57C8840159644E3F984125A0FD /* Sources */ = {
+		04D57128C66AC61B83E7E90E0E1E6DBC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				364912574019249B2DA6A79906A9A453 /* Pods-MinipaySDK_Tests-dummy.m in Sources */,
+				323C87EDE06271CB4EC9E116110F33C4 /* Pods-MinipaySDK_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5B6F94525C8105C6D026B27107872D48 /* Sources */ = {
+		1D2CEA78B5AF0C8A8E5B92860BF0AA2B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				487DDABD64276E3C96901D3F8858FF76 /* Pods-MinipaySDK_Example-dummy.m in Sources */,
+				8B4D0989D5FFCBEBEFBADB4004934409 /* AuthorizedAppAddRequest.swift in Sources */,
+				1696F36BAA2F162076FD2F845F4EA71D /* AuthorizedAppAddResponse.swift in Sources */,
+				3802908B9D4E5BAAC09CDA7E7833874B /* AuthorizedAppPostUsageEventRequest.swift in Sources */,
+				FBEFA597732298C6831ECD0CCF3984C5 /* AuthorizedAppPostUsageEventResponse.swift in Sources */,
+				63DB652A6A31067BFE2777A2892245CB /* Credentials.swift in Sources */,
+				C1A4675456F1EFCC63BF24EBB223D019 /* Graph.swift in Sources */,
+				63FB659965127BBF37DAE64FD8EFED76 /* LoginRequest.swift in Sources */,
+				5EDCF6A73189810C6434C9AF07FF9695 /* LoginResponse.swift in Sources */,
+				0069F56E98DCF7379EFA1F1BD8F42BB3 /* LoginViewController.swift in Sources */,
+				274DBB11B4DF8AF97B142F9A428B55C4 /* LoginViewModel.swift in Sources */,
+				2BE5F51EE9582B60F21FE8958AA77BBB /* MinipaySDK.swift in Sources */,
+				EA70141AD936A387FD43F4CF8B7DB395 /* MinipaySDK-dummy.m in Sources */,
+				411F0FCA6189E216E3AFAEE3BC8E5314 /* MinipaySDKBuilder.swift in Sources */,
+				0A9F768757CE40A3928CD94D289168AF /* MinipaySDKImpl.swift in Sources */,
+				82BDC18812017C5746274796ABD7A4F6 /* MinipaySDKResult.swift in Sources */,
+				C76CF86492A2003BC02A0A0A637F8459 /* MinipaySDKStateRepo.swift in Sources */,
+				A723AF79EBA54EE3235E5DCB57B6D10E /* MinipayService.swift in Sources */,
+				0C3B6445AC27D30AEF565737C63111EE /* MinipayServiceImpl.swift in Sources */,
+				0D15E482BEF8BF08604A5EB34B3F4570 /* NetworkError.swift in Sources */,
+				0FBF614DF2E513E7DE9A885F35D3213E /* NetworkService.swift in Sources */,
+				4E24DDD8F8141A4E7C1317626E5C3FBC /* NetworkServiceImpl.swift in Sources */,
+				964C4FC246B747CB25598563BB15A518 /* Person.swift in Sources */,
+				56E27002284C84BC01B8F54F4683B215 /* Request.swift in Sources */,
+				ED1F0A7C816990FE367A63C7445492C6 /* StyledButton.swift in Sources */,
+				179A0EA2A32DC7CB11BCBB3EE0EE7EB9 /* StyledTextField.swift in Sources */,
+				B941F234B71A76BCF4501F2B7DACE905 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		89D855EB9B85C0DABC694FAEF0BC52A3 /* Sources */ = {
+		A71EEC61CAC867B9C3A299D89662AAA3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23729B2B99BAA3F8EB95784E147B392C /* AuthorizedAppAddRequest.swift in Sources */,
-				5BC2DCC71166EB0C1D964C13CAFF5E68 /* AuthorizedAppAddResponse.swift in Sources */,
-				6C19C698AC464DEA3CCF1F30B5700DB6 /* AuthorizedAppPostUsageEventRequest.swift in Sources */,
-				EA9947CD0C82650189B77C257870360A /* AuthorizedAppPostUsageEventResponse.swift in Sources */,
-				F81F5A8E29DE808600ADE16A /* MinipaySDKEnvironment.swift in Sources */,
-				EB1F3D5A6FB507626B7F56D4BE5D30C8 /* Credentials.swift in Sources */,
-				D5E9EFBC12B03CB9CCABB9C1AA1479EE /* Graph.swift in Sources */,
-				E53C7D44AD5968AB542F428A0614A42A /* LoginRequest.swift in Sources */,
-				F9EFED340BB6ECADDC69B766244A4918 /* LoginResponse.swift in Sources */,
-				09A51C30E8AEA4D06F61157B308F7A2C /* LoginViewController.swift in Sources */,
-				FA2A7BB0430687444BBFFAEE2F7FD743 /* LoginViewModel.swift in Sources */,
-				A7C2258AAA3A53E12685E8ED51796A08 /* MinipaySDK-dummy.m in Sources */,
-				A49D95775A64C0B02A245DB55E35D5B6 /* MinipaySDK.swift in Sources */,
-				FE66327C3ECC84FCDA9BD5F27A9601B0 /* MinipaySDKBuilder.swift in Sources */,
-				721EB11773574610C04FA510143F5FD3 /* MinipaySDKImpl.swift in Sources */,
-				0D8941C83CAD9C1B222B9CB6D5DFD1F4 /* MinipaySDKResult.swift in Sources */,
-				E7A38370D0683EFDD25AD8B34AF1A2AC /* MinipaySDKStateRepo.swift in Sources */,
-				094D16AB5147864FDDB0589B2E8512E7 /* MinipayService.swift in Sources */,
-				6BB19B594CDD0230BFC8472DC7969CE2 /* MinipayServiceImpl.swift in Sources */,
-				42C7E6E1697B234B767662631BF1FF0C /* NetworkError.swift in Sources */,
-				1F8C28309106D3EFBC5C03CF6FEEC7E5 /* NetworkService.swift in Sources */,
-				8CC7DD5FE82912AA5E9024B1CF93BA81 /* NetworkServiceImpl.swift in Sources */,
-				E9F124708ACE80A06123524980585155 /* Person.swift in Sources */,
-				EDE313B91F638D4DAED574267ED8B246 /* Request.swift in Sources */,
-				3D59A603E64B4EA63C55FABAA2CF977F /* StyledButton.swift in Sources */,
-				5BA4D50667E45C34805ECE91827929A7 /* StyledTextField.swift in Sources */,
-				210C07C1686AE27E37C61537D919DD96 /* User.swift in Sources */,
+				3BD8663AEBD41E71D9B7CCB733D73DFD /* Constraint.swift in Sources */,
+				DD5AC77A5F102A301E6D4BF20A48C27A /* ConstraintAttributes.swift in Sources */,
+				38ABD4B18C70F661C06CE45D32121B85 /* ConstraintConfig.swift in Sources */,
+				D3F149141B775F59C90ABD261CD6A104 /* ConstraintConstantTarget.swift in Sources */,
+				8666A873EDFEA7150B997B713F6CF93C /* ConstraintDescription.swift in Sources */,
+				DDF0125D81FA944374F65DC3AAA3C5D0 /* ConstraintDirectionalInsets.swift in Sources */,
+				51FEEDC5AFECD1C11C11A43D739D02E9 /* ConstraintDirectionalInsetTarget.swift in Sources */,
+				3F64A297CEF1EC677A57E32F114B1A34 /* ConstraintDSL.swift in Sources */,
+				50842962FA806D0EAEDB4F34BA147591 /* ConstraintInsets.swift in Sources */,
+				6AEDDAF26100C6480CC1A005F7574D58 /* ConstraintInsetTarget.swift in Sources */,
+				AD91E312931EFB86BF2C6FDAEEED2DEB /* ConstraintItem.swift in Sources */,
+				330BCF794488363EE7A17C59FDD94544 /* ConstraintLayoutGuide.swift in Sources */,
+				04B6F9EDA3D440088AF8E3C9D119913B /* ConstraintLayoutGuide+Extensions.swift in Sources */,
+				EE0B6F351A10B433FC916CC928DE03AF /* ConstraintLayoutGuideDSL.swift in Sources */,
+				F8F516115F71B4591EB04900502C4A96 /* ConstraintLayoutSupport.swift in Sources */,
+				1C7FF7C32FFF764FC6054C420DADB514 /* ConstraintLayoutSupportDSL.swift in Sources */,
+				5BA1C0BC70E8BDA1469CB7532EDAF438 /* ConstraintMaker.swift in Sources */,
+				9BF867E5C116F06B37ECF7CA529E2255 /* ConstraintMakerEditable.swift in Sources */,
+				9189EFC63AE8B5806FF625C2D6064014 /* ConstraintMakerExtendable.swift in Sources */,
+				F84B90E371F119E0DBBFDAA0DC7692B1 /* ConstraintMakerFinalizable.swift in Sources */,
+				875AC845741290AEDF0D9C82910DEA88 /* ConstraintMakerPriortizable.swift in Sources */,
+				546FF2759F65C8717FC43503A6130133 /* ConstraintMakerRelatable.swift in Sources */,
+				DEC1129F69921AD49334351BEC0AC070 /* ConstraintMultiplierTarget.swift in Sources */,
+				0836446BF7972A896EEE542BB06B7D63 /* ConstraintOffsetTarget.swift in Sources */,
+				4908A20F965BD0BC2B3BA751DE46D2F7 /* ConstraintPriority.swift in Sources */,
+				08AB5C6996D3B08BB760A988F057FAAC /* ConstraintPriorityTarget.swift in Sources */,
+				59D9034D6542BCAE61178A97A9ABC8A1 /* ConstraintRelatableTarget.swift in Sources */,
+				61CE22C8BB42346C93A451C60654D047 /* ConstraintRelation.swift in Sources */,
+				0D44582A611D8B3BF6AAE98B9D2E959D /* ConstraintView.swift in Sources */,
+				8E9334A8B0831D443B3C9AD8DBC0DCC1 /* ConstraintView+Extensions.swift in Sources */,
+				26A5ECAC818B89AF7713403D8F77D26A /* ConstraintViewDSL.swift in Sources */,
+				D996F0A50B484A1EDB6F4F75C6B5486B /* Debugging.swift in Sources */,
+				E6461FC9660AA1C795B9895763AD1D8D /* LayoutConstraint.swift in Sources */,
+				E869DC2230F86FB2B6AC35D93552F324 /* LayoutConstraintItem.swift in Sources */,
+				C52F9C760735539C9CA4BBDC84A28AD3 /* SnapKit-dummy.m in Sources */,
+				A9FF80D0854AF6F1EE69861F461BC624 /* Typealiases.swift in Sources */,
+				CA07D3E2B9FF46FC783D5E1906D0DCC6 /* UILayoutSupport+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AF24664DAB21F97A9DDBF6EC0A3DE810 /* Sources */ = {
+		ECDE1A10F62032E6BB0793ECD2F232FB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2ABA30180E64FC6D7F426594AB151DF2 /* Constraint.swift in Sources */,
-				092FDEA818F01D45F964961E66BD894B /* ConstraintAttributes.swift in Sources */,
-				DA35A4A427625C85C42BC3696828B3F5 /* ConstraintConfig.swift in Sources */,
-				99165D9744B064C4CF9CEF492E1B1826 /* ConstraintConstantTarget.swift in Sources */,
-				9B384F73F321CC0F6E4F2A518F88F64B /* ConstraintDescription.swift in Sources */,
-				9735B0883F9960C9B3E5F9E7454664A5 /* ConstraintDirectionalInsets.swift in Sources */,
-				C8539A5F3FEB3926BFF473C997587F53 /* ConstraintDirectionalInsetTarget.swift in Sources */,
-				25F625930E912FC4C2094463A36B7C77 /* ConstraintDSL.swift in Sources */,
-				A14E721FD8A69484B86A2714D9420118 /* ConstraintInsets.swift in Sources */,
-				FCBD3D2D96BAF08ABC194F81CB6F765A /* ConstraintInsetTarget.swift in Sources */,
-				D17F4E5D8B51D3D93E44530CBD232A50 /* ConstraintItem.swift in Sources */,
-				EF2B36A70DE75B002CA6EC1F18896531 /* ConstraintLayoutGuide+Extensions.swift in Sources */,
-				8731757D0E8A3BBDF88257C633DE0D6B /* ConstraintLayoutGuide.swift in Sources */,
-				5D872A7BF752ECAB4099C99F18CDC63B /* ConstraintLayoutGuideDSL.swift in Sources */,
-				8768EEA899ADE8BE9BE017012DFBFEE8 /* ConstraintLayoutSupport.swift in Sources */,
-				E41EC0FEAE05B157862F9C75C6163415 /* ConstraintLayoutSupportDSL.swift in Sources */,
-				F0F775E7831B199316B010AD418F3393 /* ConstraintMaker.swift in Sources */,
-				E10C4FA2D800B2CE28CA23BC929549CE /* ConstraintMakerEditable.swift in Sources */,
-				357C6F74323028278AB01A5E1E01407A /* ConstraintMakerExtendable.swift in Sources */,
-				C85D743D4EAC94D266E8BE2A7AEA770A /* ConstraintMakerFinalizable.swift in Sources */,
-				72B91B1DF2C20F3589538E695947D24D /* ConstraintMakerPriortizable.swift in Sources */,
-				32AACE9A365EBAF11E06AC3657989F54 /* ConstraintMakerRelatable.swift in Sources */,
-				F4E6502C98BE356552095B3544D1046A /* ConstraintMultiplierTarget.swift in Sources */,
-				480966271318482B3E48CC183DE898F5 /* ConstraintOffsetTarget.swift in Sources */,
-				3D9326EC818079AED8A4AD5CA4CE0E5D /* ConstraintPriority.swift in Sources */,
-				7073286EB7989EC32A93C660CAB4CFDB /* ConstraintPriorityTarget.swift in Sources */,
-				704FD00218A18F9471A273EDADD83DCA /* ConstraintRelatableTarget.swift in Sources */,
-				3B4F5740E719DCB64529C75A2B008D26 /* ConstraintRelation.swift in Sources */,
-				CC26B4F27DE65D15BAD5D961C39D27F2 /* ConstraintView+Extensions.swift in Sources */,
-				371050D2D11202F7F6B23C0B3CC35C80 /* ConstraintView.swift in Sources */,
-				77247E9A46C2BA66B63CA1CBFF67809A /* ConstraintViewDSL.swift in Sources */,
-				EDC6407C25FC68E6563DF75F3B135E93 /* Debugging.swift in Sources */,
-				CCE1DC6280C82849BCEDC9EF0D4949C6 /* LayoutConstraint.swift in Sources */,
-				40978A25A9440ACBE27774EB98783A81 /* LayoutConstraintItem.swift in Sources */,
-				B18CC7AF2EE8278B0A8D45ADD8AA9F54 /* SnapKit-dummy.m in Sources */,
-				09F39C940ED5DEA390E650B776336576 /* Typealiases.swift in Sources */,
-				D763DC7419AE29D9ECA3F3F8685DC065 /* UILayoutSupport+Extensions.swift in Sources */,
+				5DE75CA1F9CE1E94E491A827BCE7A8EB /* Pods-MinipaySDK_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1552809AF64146A2E5EBA55086FB2293 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-MinipaySDK_Example";
-			target = 58F02504416B8626A9E59B4D1BEBAAA6 /* Pods-MinipaySDK_Example */;
-			targetProxy = 11F234E45820338BFA860E386536299F /* PBXContainerItemProxy */;
-		};
-		9A8947F15BDAEE79AFD0C426906807AA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SnapKit;
-			target = 19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */;
-			targetProxy = 05C4F3B062E028962FE01FD0569CFCD6 /* PBXContainerItemProxy */;
-		};
-		C09BE071EF99920BD29B944A0C2EC1B9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SnapKit;
-			target = 19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */;
-			targetProxy = 988D617FF69E3EB801059FDCC6ADC005 /* PBXContainerItemProxy */;
-		};
-		C266DD538EE25BA36E97EFD21CBE0D2C /* PBXTargetDependency */ = {
+		0FE9B6DEDFE3868DE00F9AC8FED10AF4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MinipaySDK;
 			target = F5803E9616780C96790400191D351937 /* MinipaySDK */;
-			targetProxy = 38D7D2212EB6602BADA109086D20D8F3 /* PBXContainerItemProxy */;
+			targetProxy = B49592DB61C0208003752E49926EB1F8 /* PBXContainerItemProxy */;
+		};
+		78AD169DA4C8C1FE35CFF207B3420A3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnapKit;
+			target = 19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */;
+			targetProxy = C5D6707C174E734A8F969A0539A994A4 /* PBXContainerItemProxy */;
+		};
+		B782BB310BC3F222178C4ED12384E0DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnapKit;
+			target = 19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */;
+			targetProxy = 515D85F21F789CFF9D9C4AB02175994F /* PBXContainerItemProxy */;
+		};
+		C68D1D6670704F95EFB41A08397A5D67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MinipaySDK_Example";
+			target = 58F02504416B8626A9E59B4D1BEBAAA6 /* Pods-MinipaySDK_Example */;
+			targetProxy = 46ACAA313842C75A754E4B82E6601FDE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0E38F5C955CB81894383EB1C950FBFAA /* Release */ = {
+		11BE42A492871CF0E3005199DE38EABC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 13E5477546F482215077496C90D75EF8 /* Pods-MinipaySDK_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MinipaySDK_Tests/Pods-MinipaySDK_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MinipaySDK_Tests/Pods-MinipaySDK_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		261A15A66C80395E47F86A7FADA5CA64 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A1CD432F32277BB93DEAADA626ECEC5B /* SnapKit.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SnapKit/SnapKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
-				PRODUCT_MODULE_NAME = SnapKit;
-				PRODUCT_NAME = SnapKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		3096ED507C9870223A704ED3F1302A6C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3E36969F393BC16C0774B2B0762C5189 /* Pods-MinipaySDK_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MinipaySDK_Example/Pods-MinipaySDK_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MinipaySDK_Example/Pods-MinipaySDK_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		449F73B23E06EB1AA27DF1682881918E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B4DB1D3CD0C5F79042BD54D376F59ADB /* MinipaySDK.debug.xcconfig */;
+			baseConfigurationReference = 8273D54AA712C6FC74EE85CFBF641E81 /* MinipaySDK.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -970,12 +871,13 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		549955EBA7FABF713DBBF496BC159191 /* Debug */ = {
+		132C2389AC07C321911A97E2B6DDBD51 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 18A7B7D895F461BAFDC0D35CABDBC826 /* Pods-MinipaySDK_Tests.debug.xcconfig */;
 			buildSettings = {
@@ -1008,9 +910,9 @@
 			};
 			name = Debug;
 		};
-		57A3F853EC014B01891A942F1714DD35 /* Release */ = {
+		43228B329B10D668D2E090C5CBDD0FFC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3184A67F9E0CCFFFC2CCD69C3CE2A379 /* Pods-MinipaySDK_Example.release.xcconfig */;
+			baseConfigurationReference = 3E36969F393BC16C0774B2B0762C5189 /* Pods-MinipaySDK_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1036,15 +938,14 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		7A1D81B9D4C340557CBB015048A1A551 /* Release */ = {
+		4D1DAA92F0DEE86630B64EA733821E79 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8273D54AA712C6FC74EE85CFBF641E81 /* MinipaySDK.release.xcconfig */;
+			baseConfigurationReference = B4DB1D3CD0C5F79042BD54D376F59ADB /* MinipaySDK.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1068,11 +969,10 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1129,13 +1029,48 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		C2CDFB41E9CC78E33F8EA05CD657E548 /* Debug */ = {
+		9B7E32FDD6E341565121D3B1BB0A3750 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3184A67F9E0CCFFFC2CCD69C3CE2A379 /* Pods-MinipaySDK_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MinipaySDK_Example/Pods-MinipaySDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MinipaySDK_Example/Pods-MinipaySDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9E3C774DA48EAE2AA2A9219AD3B70B65 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7C21E0C93A1141A1E2EB51575500E27D /* SnapKit.debug.xcconfig */;
 			buildSettings = {
@@ -1165,6 +1100,72 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		BA909B91DCA3768C1BE6211A7D90107B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13E5477546F482215077496C90D75EF8 /* Pods-MinipaySDK_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MinipaySDK_Tests/Pods-MinipaySDK_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MinipaySDK_Tests/Pods-MinipaySDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C02B263FE33B38B562BD381BE6D0C4C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1CD432F32277BB93DEAADA626ECEC5B /* SnapKit.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/SnapKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				PRODUCT_MODULE_NAME = SnapKit;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1235,20 +1236,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2A82F062F55C213EB5FC01D2C42499EA /* Build configuration list for PBXNativeTarget "Pods-MinipaySDK_Tests" */ = {
+		154C45D174F0EF5EF27EB9011A88A489 /* Build configuration list for PBXNativeTarget "SnapKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				549955EBA7FABF713DBBF496BC159191 /* Debug */,
-				0E38F5C955CB81894383EB1C950FBFAA /* Release */,
+				9E3C774DA48EAE2AA2A9219AD3B70B65 /* Debug */,
+				C02B263FE33B38B562BD381BE6D0C4C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3E38ADF6D9D91916B60FF65AEC7C69EB /* Build configuration list for PBXNativeTarget "Pods-MinipaySDK_Example" */ = {
+		3C4FC534056FA44E89BBF7BEB4D08704 /* Build configuration list for PBXNativeTarget "Pods-MinipaySDK_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3096ED507C9870223A704ED3F1302A6C /* Debug */,
-				57A3F853EC014B01891A942F1714DD35 /* Release */,
+				43228B329B10D668D2E090C5CBDD0FFC /* Debug */,
+				9B7E32FDD6E341565121D3B1BB0A3750 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1262,20 +1263,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5787B3CAF035554C17B2B484B8C34080 /* Build configuration list for PBXNativeTarget "SnapKit" */ = {
+		50A4A71BF690B1A8087494A5CD413D94 /* Build configuration list for PBXNativeTarget "Pods-MinipaySDK_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C2CDFB41E9CC78E33F8EA05CD657E548 /* Debug */,
-				261A15A66C80395E47F86A7FADA5CA64 /* Release */,
+				132C2389AC07C321911A97E2B6DDBD51 /* Debug */,
+				BA909B91DCA3768C1BE6211A7D90107B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B343884E309CC62EE2A7081451EECCB5 /* Build configuration list for PBXNativeTarget "MinipaySDK" */ = {
+		86C5D1B15F513C2071099D8806078A32 /* Build configuration list for PBXNativeTarget "MinipaySDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				449F73B23E06EB1AA27DF1682881918E /* Debug */,
-				7A1D81B9D4C340557CBB015048A1A551 /* Release */,
+				4D1DAA92F0DEE86630B64EA733821E79 /* Debug */,
+				11BE42A492871CF0E3005199DE38EABC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
