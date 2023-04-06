@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.name             = 'MinipaySDK'
   s.version          = '1.0.2'
   s.summary          = 'iOS SDK for Minipay'
-  s.description      = 'The MinipaySDK framework is a thin wrapper around the Minipay API. It is fully open source and compatible with apps supporting iOS versions 10 or above.'
+  s.description      = 'The MinipaySDK framework is a thin wrapper around the Minipay API. It is fully open source and compatible with apps supporting iOS versions 11 or above.'
   s.homepage         = 'https://github.com/jacksoncheek/minipay-ios-sdk'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'jacksoncheek' => 'jackson.cheek@gmail.com' }
