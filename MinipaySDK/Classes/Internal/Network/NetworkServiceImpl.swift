@@ -7,7 +7,7 @@ struct NetworkServiceImpl: NetworkService {
         switch environment {
         case .production:
             return "https://api.minipayhq.com/api/v1/"
-        case .test:
+        case .testMode:
             return "https://staging.minipayhq.com/api/v1/"
         }
     }

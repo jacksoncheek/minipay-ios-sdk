@@ -1,4 +1,4 @@
 public enum MinipaySDKEnvironment {
-    case test
+    case testMode
     case production
 }

@@ -25,7 +25,7 @@ pod 'MinipaySDK', '~> 1.0.2'
 ### SDK Initialization
 ```swift
 let minipaySDK: MinipaySDK = try MinipaySDKBuilder()
-    .environment(mode: .test) // or .production (for production environment)
+    .environment(mode: .testMode) // or .production (for production environment)
     .apiKey(apiKey: "<your-api-key>")
     .build()
 ```
