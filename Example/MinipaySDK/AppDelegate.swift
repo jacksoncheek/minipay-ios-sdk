@@ -9,6 +9,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         do {
             let minipaySDK: MinipaySDK = try MinipaySDKBuilder()
+                .environment(mode: .test) // or .production (for production environment)
                 .apiKey(apiKey: "<your-api-key>")
                 .build()
 

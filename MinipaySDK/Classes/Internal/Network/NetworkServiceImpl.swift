@@ -1,10 +1,23 @@
 struct NetworkServiceImpl: NetworkService {
     private let session: URLSession
+
+    private let environment: MinipaySDKEnvironment
+
+    var baseURL: String {
+        switch environment {
+        case .production:
+            return "https://api.minipayhq.com/api/v1/"
+        case .test:
+            return "https://staging.minipayhq.com/api/v1/"
+        }
+    }
     
-    let baseURL: String = "https://api.minipayhq.com/api/v1/"
-    
-    init(session: URLSession) {
+    init(
+        session: URLSession,
+        environment: MinipaySDKEnvironment
+    ) {
         self.session = session
+        self.environment = environment
     }
     
     func request<T: Decodable>(

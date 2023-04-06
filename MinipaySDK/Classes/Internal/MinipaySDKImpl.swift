@@ -4,6 +4,7 @@ class MinipaySDKImpl: MinipaySDK {
 
     struct Params {
         let apiKey: String
+        let environment: MinipaySDKEnvironment
     }
 
     private let params: Params
@@ -12,7 +13,10 @@ class MinipaySDKImpl: MinipaySDK {
         self.params = params
         
         do {
-            let networkService = NetworkServiceImpl(session: URLSession.shared)
+            let networkService = NetworkServiceImpl(
+                session: URLSession.shared,
+                environment: params.environment
+            )
             
             let minipayService = MinipayServiceImpl(networkService: networkService)
             

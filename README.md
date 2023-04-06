@@ -7,18 +7,25 @@
 ## Demo
 <img src="demo.gif" width="250">
 
+## Test Mode
+
+In order to test your integration, Minipay provides a completely separate testing mode. This is a testing environment that simulates creating real objects without the risk of affecting real transactions or moving actual money.
+
+Test mode accounts are entirely separate from production accounts, so you'll need to create a test account the same way you created a production account. We recommend using test mode to build the integration and replace your test keys with live keys when you’re ready to go live.
+
 ## Installation
 
 The MinipaySDK is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```
-pod 'MinipaySDK', '~> 1.0.1'
+pod 'MinipaySDK', '~> 1.0.2'
 ```
 
 ### SDK Initialization
 ```swift
 let minipaySDK: MinipaySDK = try MinipaySDKBuilder()
+    .environment(mode: .test) // or .production (for production environment)
     .apiKey(apiKey: "<your-api-key>")
     .build()
 ```

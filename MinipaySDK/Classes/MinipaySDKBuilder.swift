@@ -4,14 +4,22 @@ public class MinipaySDKBuilder {
 
     enum BuilderError: Error {
         case missingApiKey
+        case missingEnvironment
     }
 
     private var apiKey: String?
-    
+
+    private var environment: MinipaySDKEnvironment?
+
     public init() {}
 
     public func apiKey(apiKey: String) -> Self {
         self.apiKey = apiKey
+        return self
+    }
+
+    public func environment(mode: MinipaySDKEnvironment) -> Self {
+        self.environment = mode
         return self
     }
 
@@ -21,9 +29,14 @@ public class MinipaySDKBuilder {
         guard let apiKey = apiKey else {
             throw BuilderError.missingApiKey
         }
-        
+
+        guard let environment = environment else {
+            throw BuilderError.missingEnvironment
+        }
+
         let params = MinipaySDKImpl.Params(
-            apiKey: apiKey
+            apiKey: apiKey,
+            environment: environment
         )
 
         return MinipaySDKImpl(
